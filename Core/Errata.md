@@ -514,11 +514,33 @@ test of any spell you perceive.
 
 Dispelling only damages the counterspeller by half the spell's Drain, rounded up.
 
+#### Spirits
+
+Like with Sprites and Drones, you get bonus Minor Actions, which 
+you can only use to Control the Spirit. You cannot spend more than 6 Minor Actions in a turn.
+
+Spirits add 4 Minor Actions to the summoner's Minor Action pool This is simply a buff
+to compensate for the fewer dice spirits get compared to Drones and Sprites
+
+#### Astral Projection
+
+The base initiative dice for Astral Projection is increased to 4D6. (5 Minor Actions)
+
+You can command spirits while Astrally Projecting.
+
+You cannot summon spirits while Astrally Projecting while being more than 100m away from your body.
+(This is to counter "Spirit Bomb" tactics.)
 
 
 
+The Damage of your Astral Combat attack is your tradition's linked attribute, not just Charisma.
 
+#### Metamagics
 
+Quickening is removed from the game.
+
+You do not need to have the Masking metamagic to hide your Magical nature, but you get Bonus dice for 
+Masking Focuses and Initiate Grades. Without those your pool is just your Magic rating.
 
 
 
