@@ -413,6 +413,16 @@ persona is visible to others in the host. You roll Sleaze + Logic to maintain a 
 within the host to fool both the users and the system. This can then lead to Sneaking, Deception, Con, and other tests,
 for which...
 
+#### Hacking on the Fly vs Brute Force
+
+Brute Force applies an additional mark compared to Hack on The Fly.
+Succeeding or Failing on a Brute Force test in a host activates IC and makes the system identify you as a hacker.
+Succeeding or Failing on a Brute Force test on the grid automatically notifies the owner of the target that you tried to
+hack them.
+
+Failing a Hack on the Fly does not raise suspicion unless your target's net hits are greater than your overall hits.
+If they are, your target is notified of the hacking attempt, but you are not identified as the hacker.
+
 #### Agents
 
 The Agent program is completely reworked. Instead of it providing an virtual servant, the Agent program allows you to
@@ -448,7 +458,7 @@ Cleaner reduces your Overwatch Score by half your hits rounded down.
 Sprites no longer have their own initiative and instead act on the same turn as their summoner.
 
 When a sprite is summoned, instead of it receiving the actions from it's dice pool, the summoner gets extra
-Minor Actions equal to the sprite's initiative dice count. The total Minor Actions a character can use in their turn is
+4 extra Minor Actions. The total Minor Actions a character can use in their turn is
 six, no matter what.
 
 The Minor actions gained this way can only be used to control the Sprite, however, other Actions you have can also be
@@ -481,7 +491,7 @@ A Rigger's drones automatically form a coherent unit and have the Unit Combat ru
 to them. Such a Rigger Unit does not use their own actions and turn, but instead act on the same turn as the Rigger, and
 use the Rigger's actions.
 
-The Rigger receives an amount of Minor Actions equal to the Drones' initiative die (4). These minor Actions cannot be
+The Rigger receives an 3 Minor Actions when he has a drone active and linked to his RCC. These Minor Actions cannot be
 used for anything else, but controlling the drones. A Character can still use their regular actions to control the
 drones. A character still cannot take more than 6 Minor Actions a turn.
 
@@ -507,6 +517,12 @@ defensive measures in order to ward off assassins who would use these tactics. A
 from the spell around the target (see Perceiving Magic) and move in to stop the target. Also, a subject of Control
 Thoughts knows that he was subject to mind control after the spell ends. A subject of the spell Influence does not.
 
+#### Drain
+
+Increase [Attribute] spells cannot increase a character's Drain Resist.
+
+You cannot increase your Drain Resist by using 
+
 #### Counterspelling
 
 Counterspell is now an Interrupt Action that costs a Minor Action and adds your Counterspell skill rating to the defense
@@ -516,11 +532,10 @@ Dispelling only damages the counterspeller by half the spell's Drain, rounded up
 
 #### Spirits
 
-Like with Sprites and Drones, you get bonus Minor Actions, which 
+Like with Sprites and Drones, you get bonus Minor Actions, which
 you can only use to Control the Spirit. You cannot spend more than 6 Minor Actions in a turn.
 
-Spirits add 4 Minor Actions to the summoner's Minor Action pool This is simply a buff
-to compensate for the fewer dice spirits get compared to Drones and Sprites
+Spirits add 3 Minor Actions to the summoner's Minor Action pool.
 
 #### Astral Projection
 
@@ -531,21 +546,35 @@ You can command spirits while Astrally Projecting.
 You cannot summon spirits while Astrally Projecting while being more than 100m away from your body.
 (This is to counter "Spirit Bomb" tactics.)
 
-
-
 The Damage of your Astral Combat attack is your tradition's linked attribute, not just Charisma.
 
 #### Metamagics
 
-Quickening is removed from the game.
+Quickening is changed so that it adds +1d6 to your Astral Initiative.
 
-You do not need to have the Masking metamagic to hide your Magical nature, but you get Bonus dice for 
+You do not need to have the Masking metamagic to hide your Magical nature, but you get Bonus dice for
 Masking Focuses and Initiate Grades. Without those your pool is just your Magic rating.
 
+### Drugs and Addiction
 
+Each time you take an addictive substance, you will immediately make an addiction test (Pg 414 SR5 CRB).
 
+For psychologically addicting drugs, the test will
+be [Logic +Willpower +(11 - Drug's Effective Addiction Rating) +(other modifiers)].
 
+For physiologically addicting drugs, the test will
+be [Body + Willpower + (11 - Drug's Effective Addiction Rating) + (other modifiers)].
 
+For drugs that are "
+Both", the test will be the worse of your two dicepools for the above. Only permanent attribute augmentations apply to
+the dicepools for this test. If you fail the test, you immediately suffer the effects of a failed addiction test.
+
+On a failed roll, the Addiction worsens by one level (Mild to Moderate, Moderate to Severe, Severe to Burnout), or the
+character gains the Addiction quality at the Mild level if not yet addicted. Afterwards, the character doesn’t have to
+make any more Addiction tests when taking additional doses of the same drug in that session.
+
+A character cannot increase their dice pool on the Drug Resistance test by using drugs to increase their physical or
+mental attributes.
 
 
 
