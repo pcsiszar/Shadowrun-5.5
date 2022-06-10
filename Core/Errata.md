@@ -76,12 +76,6 @@ downgraded to National, or burned, depending on the kind of damage you did.
 
 Physical Limit is (Strength x2 + Agility + Reaction) / 3
 
-### Character Advancement [Page 103]
-
-The time it takes to improve your Attributes and Skills are overruled by the Offtime System. Attributes take four
-Offtime Action to increase beyond their Karma Cost from 0 to 4, eight from 5 to 8 and twelve from 8 to 12. Skills take
-two, four, and eight in their respective skill point range.
-
 ### Buying Qualities after Chargen [Page 106]
 
 Negative Qualities can be purchased off for just their Karma Value and Positive Qualities can be bought with their Karma
