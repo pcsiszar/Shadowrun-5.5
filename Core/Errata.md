@@ -402,10 +402,8 @@ using smartguns, a hacker can eject all of them with one action.
 
 #### Running Silent
 
-You cannot Run Silent in a host. The Running Silent mechanic changes to Spoofing. Unlike when running silent, your
-persona is visible to others in the host. You roll Sleaze + Logic to maintain a credible persona and identity while
-within the host to fool both the users and the system. This can then lead to Sneaking, Deception, Con, and other tests,
-for which...
+Running Silent and Spoofing your persona to appear as somebody who ought to be there are both possible, meaning you can
+choose to appear as something else or not appear at all with the same Logic + Sleaze roll.
 
 #### Hacking on the Fly vs Brute Force
 
@@ -491,18 +489,12 @@ drones. A character still cannot take more than 6 Minor Actions a turn.
 
 ### Magic
 
-#### Perceiving Magic
-
-Perceiving Magic rules apply to sustained spells as well.
-
-Illusion Spells are totall exempt from the Perceiving Magic rules. They have to be resisted with
-Logic + Intuition to notice.
-
 #### Spells
 
-Control Thoughts and Control Actions work by granting you Minor Actions equal to your net hits on the test.
-You immediately gain those actions, but you cannot spend more than 6 Minor Actions in a turn.
-If those Minor Actions are used, the spell ends.
+Control Thoughts and Control Actions are modified that you are granted a number of turns of equal to your net hits until
+the spell automatically ends. While you control the target, you get to control them using your Action pool.
+For out of combat applications, the spell lasts 3 seconds times the number of net hits you scored.
+Some enemies are immune to these spells.
 
 ##### A Note on Suicide
 
@@ -515,7 +507,30 @@ Thoughts knows that he was subject to mind control after the spell ends. A subje
 
 Increase [Attribute] spells cannot increase a character's Drain Resist.
 
-You cannot increase your Drain Resist by using 
+Instead of Drain affecting your Physical or Stun Condition Monitors, Spellcasters get a third Condition Monitor for
+Mana equal to 8 + Magic/2.
+
+When a magic user takes Drain damage, they decrease their Mana CM by the suffered Drain Damage, which can be resisted as
+specified by normal rules.
+
+When a character's Mana runs out, any leftover Drain Damage is transfered to the Stun CM if the spell's Force was less
+or equal to the caster's Magic, or to the Physical CM otherwise. When the character has 0 Mana, they cannot cast spells,
+summon spirits, use Foci, and all sustained spells end, active Foci deactivate, and summoned spirits dissapear.
+
+A mage casting spells with Force greater than their Magic attribute will suffer additional drain equal to the
+Force of the spell - Their Magic Attribute. For example a F10 spell with Drain Code F-2 from a Magic 6 mage will cause
+8 regular + 4 extra Drain.
+
+A character's Magic CM is affected by Power Foci and anything else that increases their Magic Attribute.
+
+A character has the following ways of regenerating their Magic:
+- Each hour they get to make a Magic + Tradition Attribute Check, and add the hits to their Mana pool.
+- Resting recovers their full Mana Pool
+- They recover their full Mana if they Burn an Edge, even from empty.
+- They can make a Mana Recovery test for spending an Edge if their reserve is not empty yet.
+- Background count can add or remove dice from the recovery pool equal to the Background Count
+
+A mage can cast spells with a maximum Force of 2 x Magic
 
 #### Counterspelling
 
@@ -553,19 +568,22 @@ Masking Focuses and Initiate Grades. Without those your pool is just your Magic 
 
 Each time you take an addictive substance, you will immediately make an addiction test (Pg 414 SR5 CRB).
 
-For psychologically addicting drugs, the test will
-be [Logic +Willpower +(11 - Drug's Effective Addiction Rating) +(other modifiers)].
+For psychologically addicting drugs, the test will be [Max(Logic|Charisma) + Willpower  + (other modifiers)].
 
-For physiologically addicting drugs, the test will
-be [Body + Willpower + (11 - Drug's Effective Addiction Rating) + (other modifiers)].
+For physiologically addicting drugs, the test will be [Body + Willpower + (other modifiers)].
 
-For drugs that are "
-Both", the test will be the worse of your two dicepools for the above. Only permanent attribute augmentations apply to
-the dicepools for this test. If you fail the test, you immediately suffer the effects of a failed addiction test.
+For drugs that are "Both", the test will be the worse of your two dicepools for the above. Only permanent attribute
+augmentations apply to the dicepools for this test. If you fail the test, you immediately suffer the effects of a failed
+addiction test.
 
 On a failed roll, the Addiction worsens by one level (Mild to Moderate, Moderate to Severe, Severe to Burnout), or the
 character gains the Addiction quality at the Mild level if not yet addicted. Afterwards, the character doesn’t have to
 make any more Addiction tests when taking additional doses of the same drug in that session.
+
+If you are addicted, you have to stay clean for an amount of days equal to the Drug's Addiction Rating in order to get
+rid of the addiction. At the start of each day, you take an Addiction test, which if you fail, the withdrawal
+effects of
+your addiction kick in for the rest of the day.
 
 A character cannot increase their dice pool on the Drug Resistance test by using drugs to increase their physical or
 mental attributes.
