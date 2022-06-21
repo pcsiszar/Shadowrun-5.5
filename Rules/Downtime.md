@@ -22,7 +22,7 @@ The players have the following options:
   spent)
 - Work a Side Biz (You find a small one-time gig that pays as well as you can leave your conscience at the door, earning
   you 50 nuyen + 2000 nuyen per Karma)
-- Go shopping (Buy yourself anything that has Availability equal to or lower than your Street Cred + A Relevant
+- Go shopping (Buy yourself anything that has Availability equal to or lower than your Street Cred x 2 + A Relevant
   Contact's Connection Rating, or designate an Item you wish to buy, and lower it's Availability by 1 temporarily until
   you purchase that item)
 - Improve yourself (Declare 1 skill or attribute you wish to improve. Increase it by 1 for it's regular cost, or you

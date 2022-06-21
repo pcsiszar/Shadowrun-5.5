@@ -521,6 +521,17 @@ A mage casting spells with Force greater than their Magic attribute will suffer 
 Force of the spell - Their Magic Attribute. For example a F10 spell with Drain Code F-2 from a Magic 6 mage will cause
 8 regular + 4 extra Drain.
 
+Spirit's have their Drain changed to their Force + the Max number of Services they can grant. 
+For example, summoning a Force 6 spirit with a maximum of 3 service will cause 9 Drain. The spirit still only rolls with Force amount
+of dice, and net hits will result in Services earned, but mages cannot earn more services than the limit they set.
+
+Binding spirits will cause Drain equal to the Spirit's Force + the Maximum Additional Services wished to be added,
+but the Spirit still resists with twice the Force value of dice.
+
+You can instantly summon and bind a spirit, which increases the Drain Value by 2. The Spirit resists with Force x 2 dice
+
+Banishing will cause Drain equal to the Spirit's Force. 
+
 A character's Magic CM is affected by Power Foci and anything else that increases their Magic Attribute.
 
 A character has the following ways of regenerating their Magic:
